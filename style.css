@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+
 }
 html {
   scroll-behavior: smooth;
@@ -21,6 +22,9 @@ h6 {
 p {
   line-height: 1.75;
 }
+.container ,footer, header{
+  box-sizing: border-box;
+}
 
 .text-faded {
   color: rgba(255, 255, 255, 0.3);
@@ -36,12 +40,12 @@ p {
 
 .site-heading .site-heading-upper {
   display: block;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 800;
 }
 
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 100;
   line-height: 4rem;
 }
@@ -248,7 +252,7 @@ p {
 }
 
 .section-4 .card {
-  width: 22em;
+  width: 21em;
   margin-top: 10vmin;
   background-color:rgba(136, 101, 101, 0.597);
   box-shadow: 2px 2px 4px #83306a;
@@ -299,7 +303,7 @@ footer .column i {
   height: 30px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 992px){
 
   footer h4{
     padding-top: 25px;
@@ -308,9 +312,8 @@ footer .column i {
     display: none;
   }
   .intro h1{
-    height:100px;
-    padding-top:100px; 
-    padding-bottom:50px;
+    
+    margin: 100px 0px 250px 0px;
   }
  
 }
